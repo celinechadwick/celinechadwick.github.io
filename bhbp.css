@@ -328,11 +328,11 @@ ul:not(.blog-content ul) {
   align-content: center;
   align-items: center;
   justify-content: flex-start;
-  aspect-ratio: 616 / 345;
-  object-fit: cover;
 }
 .third-width img {
   width: 100%;
+  aspect-ratio: 616 / 345;
+  object-fit: cover;
 }
 
 .section-3 .half-width.dark-purple {
