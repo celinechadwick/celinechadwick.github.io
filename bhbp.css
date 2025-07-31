@@ -529,6 +529,11 @@ font-family: 'Muli';
 #ascend-divider {
   margin-bottom: 0;
 }
+#ascend-section sup {
+   font-size: 25px;
+   margin-left: 4px;
+}
+
 @media screen and (max-width: 1200px) {
   .section-1 p {
     max-width: 650px;
