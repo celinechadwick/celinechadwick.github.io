@@ -1,4 +1,4 @@
- 
+
 @font-face {
   font-family: Martin;
   src: url('./fonts/MARTIN-Regular.woff') format('woff');
@@ -112,7 +112,10 @@ nav a:hover {
 }
 
 .logo {
-  width: 170px;
+  width: 190px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 10px;
 }
 
 body {
@@ -177,8 +180,41 @@ button:hover {
   flex-direction: row;
   }
 
+.banner h2 {
+    font-size: 21px;
+    color: #0e0e55;
+    margin-top: 15px;
+    font-family: 'muli';
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+.banner h1 {
+  margin-bottom: 0;
+}
+.banner span {
+    font-family: 'Martin';
+    font-size: 32px;
+    display: block;
+    margin-bottom: 65px;
+    letter-spacing: 1.3px;
+    color: #23236f;
+}
+.banner strong {
+  font-size: 21px;
+}
+.banner-logo {
+    font-family: 'Martin';
+    font-size: 29px;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 21px;
+    color: #0e0e56;
+    letter-spacing: .6px;
+}
+
   .half-width.purple {
-    padding: 60px;
+    padding: 50px;
   }
 
 .banner .background {
@@ -520,7 +556,7 @@ font-family: 'Muli';
 }
 
 #ascend-section {
- padding: 50px 50px 0;
+ padding: 50px;
 }
 #ascend-img {
   width: 400px;
@@ -529,7 +565,7 @@ font-family: 'Muli';
 #ascend-divider {
   margin-bottom: 0;
 }
-#ascend-section sup {
+#ascend-section sup, .section-1 sup {
    font-size: 25px;
    margin-left: 4px;
 }
